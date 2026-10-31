@@ -11,4 +11,5 @@ edition = "2024"
 io-uring = { version = "0.7.15", features = [] }
 clap = { version = "4.6.7", features = ["derive"] }
 tokio = { version = "1.54.1", features = ["full"] }
-libc = {version = "0.2.191", features = []}
+libc = { version = "0.2.191", features = [] }
+rustfft = { version = "6.4.1", features = [] }
