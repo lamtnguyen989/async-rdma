@@ -1,0 +1,14 @@
+[workspace]
+resolver = "3"
+members = ["client", "core","rdma", "server"]
+
+[workspace.package]
+name = "async-gpu-rdma"
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+io-uring = { version = "0.7.15", features = [] }
+clap = { version = "4.6.7", features = ["derive"] }
+tokio = { version = "1.54.1", features = [] }
+libc = {version = "0.2.191", features = []}
